@@ -18,7 +18,7 @@ import AnimationBadResult from './AnimationBadResult';
 import AnimationGoodResult from './AnimationGoodResult';
 import { styles } from './styles';
 import { primary, secundary } from '../../../Theme/theme';
-import { questions } from '../../../questions';
+import { questions } from '../question';
 
 export default function QuestionsList() {
   const navigation = useNavigation();

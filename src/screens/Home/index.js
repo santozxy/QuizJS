@@ -1,6 +1,6 @@
 import { View, Text, SafeAreaView, TouchableOpacity, Image, Platform, Linking } from 'react-native';
 import Ionicons from '@expo/vector-icons/Ionicons';
-import AnimationJS from './animation'
+import AnimationJS from './animation';
 import { styles } from './styles'
 
 export default function Home({ navigation }) {
@@ -13,7 +13,7 @@ export default function Home({ navigation }) {
 
             {Platform.OS === 'web' ?
                 <View style={{ marginTop: 20 }}>
-                    <Image source={require('../../assets/logo-js.png')} style={{ width: 200, height: 200 }} />
+                    <Image source={require('../../../assets/logo-js.png')} style={{ width: 200, height: 200 }} />
                 </View>
                 :
                 <View style={{ marginTop: 20 }}>

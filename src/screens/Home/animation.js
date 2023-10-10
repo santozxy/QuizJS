@@ -13,7 +13,7 @@ export default function AnimationJS() {
           width: 400,
           height: 320,
         }}
-        source={require('../../assets/home-animation.json')}
+        source={require('../../../assets/home-animation.json')}
       />
     </View>
   )

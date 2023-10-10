@@ -14,7 +14,7 @@ export default function AnimationGoodResult(){
           width: 400,
           height: 320,
         }}
-        source={require('../../../assets/robo-feliz.json')}
+        source={require('../../../../assets/robo-feliz.json')}
       />
 
     </View>
